@@ -1,0 +1,3 @@
+Overview:
+  This file contains the ideas of what this language will be like, be sure to write your ideas here. Thanks
+ 
