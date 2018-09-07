@@ -136,20 +136,20 @@ The syntax of the language is defined hereon. This includes the grammatical and 
   ```
 		This code swallows 0, 2, 4, 6 ..., which is what the programmer wanted.
 
-	b. Keywords
+	2. Keywords
 
 		There are quite a few keywords in this language. The keywords include
-
-			byte		if 			include 	func
-			short		else 		delete 		of
-			int 		for 		inherits 	void
-			long 		while 	 public
-			float 		do 			private
+		
+			byte		if 		include 	of
+			short		else 		delete 		void
+			int 		for 		inherits 	func
+			long 		while 	 	public		
+			float 		do 		private
 			double 		doing 		auto
 			number 		class 		type
 			decimal 	define 		const
 
-	c. Declarations
+	3. Declarations
 
 		A declaration in this language follows this syntax
 
@@ -177,7 +177,7 @@ The syntax of the language is defined hereon. This includes the grammatical and 
 			2. The identifier must have been previously declared
 			3. The identifier may not have a constant type
 
-	d. Assignments
+	4. Assignments
 
 		It is possible to assign a variable a value. The syntax of which is as follows
 
@@ -205,7 +205,7 @@ The syntax of the language is defined hereon. This includes the grammatical and 
 
 		Don't try to make your own asgn or addasgn or something because it's impossible. These should be keywords but they are not because thats just stupid.
 
-	e. Functions
+	5. Functions
 
 		Functions look like this
 
@@ -225,7 +225,7 @@ The syntax of the language is defined hereon. This includes the grammatical and 
 
 		Functions return a reference to the expression that was returned. Function arguments are references to the values passed, so modifying an argument modifies the value passed to the function as that argument as well, as they are literally the same object under different identifiers.
 
-	f. Expressions
+	6. Expressions
 
 		Expressions are a wide topic. There are many literals that can be used as expressions
 
